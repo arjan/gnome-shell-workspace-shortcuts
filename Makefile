@@ -3,7 +3,7 @@ PKG=$(shell basename $(PWD))
 DEST=../$(PKG)-$(VSN).zip
 
 all:
-	glib-compile-schemas schema/
+	glib-compile-schemas schemas/
 
 release: all
 	@rm -f ../$(DEST)
