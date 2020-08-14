@@ -1,0 +1,8 @@
+{
+  "name": "Workspace Shortcuts",
+  "description": "Common workspace shortcut keys",
+  "uuid": "gnome-shell-workspace-shortcuts@github.com",
+  "settings-schema": "org.gnome.shell.extensions.workspace-shortcuts",
+  "version": 2,
+  "shell-version": ["3.36"]
+}
